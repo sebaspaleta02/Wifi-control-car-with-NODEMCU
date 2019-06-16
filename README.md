@@ -29,20 +29,20 @@
 1. Download the dll and save it in the desktop
 2. Open a new C# Windows Form 
 3. Add this new References to the new program you created copy and paste them at the very top
-using System.Net.Http;
-using System.Net;
-using System.Net.Sockets;
+"using System.Net.Http;"
+"using System.Net;"
+"using System.Net.Sockets;"
 4. Open the dll Example: C:> Users> USER > Desktop > dll car> car wifi > car wifi > bin > Debug
 When you have reached the folder Debug Copy the two files called 
-*car wifi.dll 
-*car wifi.pdb
+*car wifi.dll*
+*car wifi.pdb*
 5.Open the folder of the new program you created Example C:> Users >USER >Desktop> car >car
 There you will see a folder and a file that open the program, open the folder and paste the two files that we copied 
 6. Return to the new form were we added the references, go to the right side to "Solution Explorer" 
-there you will see just below "Solution "name of the proyect"" right click in the one below of this one the green one it show only the name of your proyect example "car"
-7. after that a list of properties is going appear click the one that says "Add>" followed by "Existing item"(the green one) a folder will open, go to the Drop down list and select the one that says
+there you will see just below "Solution "name of the proyect"" right click in the one below of this one the green one it show only the name of your proyect, example: "car"
+7. After that a list of properties is going appear click the one that says "Add>" followed by "Existing item"(the green one) a folder will open, go to the Drop down list and select the one that says
 "All the files(*.*)" select both of the files that we copied earlier and click in "add |v" 
-8.below "Solution "name of the proyect"" there is one called "References" right click and a small window will apear click at the one that says "Add reference..." a big window is going to appear so we are going to the left side below ">COM" there is one called 
+8.Below "Solution "name of the proyect"" there is one called "References" right click and a small window will apear click at the one that says "Add reference..." a big window is going to appear so we are going to the left side below ">COM" there is one called 
 ">Examine" we click that one, inside of that one we are going to give click on "Examine..." a folder is going to open right there we are going to search our dll folder we open it and go to 
 Example: C:>User>USER>Desktop>dll car>car wifi>car wifi>bin>Debug when we reach the folder Debug we are going to see our dll example: car wifi.dll we click and then we click "Add |v"
 9.When completed all the above steps we have to add a new reference "using car_wifi;" just below the other ones we already added copy this and paste just below "using System.Net.Sockets;" 
@@ -60,7 +60,7 @@ Example: C:>User>USER>Desktop>dll car>car wifi>car wifi>bin>Debug when we reach 
  {}
 
 14. The first textBox1 is going to be your ip that we added in arduino example of what are you going to writte when you start the program [192.165.345] only the numbers and the dots no spaces
-15. the second text box is for the directions of the car 
+15. The second text box is for the directions of the car 
 the following keys are the directions that you are going to writte while the program is running same with the ip :
 
 w=Foward
