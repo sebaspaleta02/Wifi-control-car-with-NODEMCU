@@ -46,6 +46,12 @@ there you will see just below "Solution "name of the proyect"" right click in th
 ">Examine" we click that one, inside of that one we are going to give click on "Examine..." a folder is going to open right there we are going to search our dll folder we open it and go to 
 Example: C:>User>USER>Desktop>dll car>car wifi>car wifi>bin>Debug when we reach the folder Debug we are going to see our dll example: car wifi.dll we click and then we click "Add |v"
 9.When completed all the above steps we have to add a new reference "using car_wifi;" just below the other ones we already added copy this and paste just below "using System.Net.Sockets;" 
+11. Add the new class to the proyect so the step 13 run correctly
+
+ Below ***public partial class Form1 : Form
+    {
+        This one -> Class1 obj = new Class1();
+        
 10. At the new Windows Forms add two textBox and a timer1 
 11.Double click to the form and put copy this  "timer1.Enabled = true;"
 12.Double click to the timer1 and add the "async" metod "private async void timer1_Tick"
